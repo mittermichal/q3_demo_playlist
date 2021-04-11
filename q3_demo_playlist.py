@@ -6,8 +6,8 @@ import re
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Currency converter.')
-    parser.add_argument('--dir', metavar='<PATH>', required=False,default='cpma\\demos',
+    parser = argparse.ArgumentParser(description='generates demo playlist cfg for q3/wolf:et/rtcw')
+    parser.add_argument('--dir', metavar='<PATH>', required=True,
                         help='path to demos folder (C:/Program Files (x86)/ioquake3/baseq3/demos/quakecon2049)')
     #parser.add_argument('-r', required=False,
     #                    help='recursively search for demos')
